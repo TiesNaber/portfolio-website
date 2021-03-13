@@ -5,11 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { PortfolioMainComponent } from './portfolio-main/portfolio-main.component';
+import { PortfolioWelcomeScreenComponent } from './portfolio-welcome-screen/portfolio-welcome-screen.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    PortfolioMainComponent
+    PortfolioMainComponent,
+    PortfolioWelcomeScreenComponent
   ],
   imports: [
     BrowserModule,
