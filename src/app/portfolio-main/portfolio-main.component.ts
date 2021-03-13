@@ -7,9 +7,23 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PortfolioMainComponent implements OnInit {
 
+  isActive : Boolean = false;
+  
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  enablePage(){
+    this.setActive(true);
+  }
+
+  disablePage(){
+    this.setActive(false);
+  }
+
+  private setActive(active : Boolean){
+    this.isActive = active;
   }
 
 }
