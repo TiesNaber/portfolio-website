@@ -1,40 +1,49 @@
-<div *ngIf="isActive">
+<div class="container-xxl" *ngIf="isActive">
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
         <a class="navbar-brand" href="#">Logo</a>
         <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#skills">Skills</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#gamedev">Game Development</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#webdev">Web-development</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#cv">CV</a>
             </li>
         </ul>
     </nav>
-    <div class="container-fluid"><br>
+    <div id=#skills class="row">
+        <div class="col-8">
+            <p>Some example text. Some example text. Some example text. Some example text. Some example text.</p>
+            <p>Some example text. Some example text. Some example text. Some example text. Some example text.</p>
+        </div>
+        <div class="col-4">
+            <div class="card shadow p-4 mb-4 bg-white content_img" style="height: 100%; width: 75%;">
+                <a download="CV-Ties-Naber.pdf" href="../../assets/resume/CV-Ties-Naber.pdf">
+                    <div>Click to download CV</div>
+                    <img class="card-img-top rounded" id=#cv src="../../assets/images/cvimg.png"
+                        style="size: inherit;" />
+                </a>
+            </div>
+        </div>
+    </div>
+    <div id=#webDev class="">
         <p>Some example text. Some example text. Some example text. Some example text. Some example text.</p>
         <p>Some example text. Some example text. Some example text. Some example text. Some example text.</p>
         <p>Some example text. Some example text. Some example text. Some example text. Some example text.</p>
         <p>Some example text. Some example text. Some example text. Some example text. Some example text.</p>
     </div>
-    <div class="container-fluid"><br>
+    <div id=#gameDev class="">
         <p>Some example text. Some example text. Some example text. Some example text. Some example text.</p>
         <p>Some example text. Some example text. Some example text. Some example text. Some example text.</p>
         <p>Some example text. Some example text. Some example text. Some example text. Some example text.</p>
         <p>Some example text. Some example text. Some example text. Some example text. Some example text.</p>
     </div>
-    <div class="container-fluid"><br>
-        <p>Some example text. Some example text. Some example text. Some example text. Some example text.</p>
-        <p>Some example text. Some example text. Some example text. Some example text. Some example text.</p>
-        <p>Some example text. Some example text. Some example text. Some example text. Some example text.</p>
-        <p>Some example text. Some example text. Some example text. Some example text. Some example text.</p>
-    </div>
-    <div class="container-fluid"><br>
-        <p>Some example text. Some example text. Some example text. Some example text. Some example text.</p>
-        <p>Some example text. Some example text. Some example text. Some example text. Some example text.</p>
-        <p>Some example text. Some example text. Some example text. Some example text. Some example text.</p>
-        <p>Some example text. Some example text. Some example text. Some example text. Some example text.</p>
-    </div>
-    <div class="container-fluid"><br>
+    <div id=#cv class="">
         <p>Some example text. Some example text. Some example text. Some example text. Some example text.</p>
         <p>Some example text. Some example text. Some example text. Some example text. Some example text.</p>
         <p>Some example text. Some example text. Some example text. Some example text. Some example text.</p>

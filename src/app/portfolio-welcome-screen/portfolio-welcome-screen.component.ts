@@ -8,13 +8,14 @@ import { CommunicationServiceService } from '../communication-service.service';
   styleUrls: ['./portfolio-welcome-screen.component.css']
 })
 export class PortfolioWelcomeScreenComponent implements OnInit {
- 
+  isClicked = false;
   constructor(private communicationService:CommunicationServiceService) { }
   
   ngOnInit(): void {
   }
 
   enableMainPageClickEvent(): void{
+    this.isClicked = true;
     this.communicationService.getIsActive();
     
   }

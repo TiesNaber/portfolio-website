@@ -1,4 +1,4 @@
-<div class="jumbotron"
+<div *ngIf=!isClicked  class="jumbotron"
     style="background-image: url(../assets/images/Welcomepage\ stock\ image.jpg); background-size:cover; height: 100vh;">
     <div class="text-white text-center py-5 px-4">
         <div>
@@ -11,8 +11,9 @@
     <div class="fixed-bottom">
         <div class="row text-center">
             <div class="col-12 text-center">
-                <button type="button" class="btn btn-lg text-center text-white" (click)=enableMainPageClickEvent()> Learn more about what I do<br><i
-                        class="fa fa-angle-double-down text-center"></i></button>
+                <button type="button" class="btn btn-lg text-center text-white" (click)=enableMainPageClickEvent()> Learn more about what I do<br>
+                    <i class="fa fa-angle-double-down text-center"></i>
+                </button>
             </div>
         </div>
     </div>
