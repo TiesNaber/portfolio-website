@@ -52,27 +52,42 @@
     opacity: 0.89; 
    }
 
+   .tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+
 
 .devicon-angularjs-plain{
-    font-size: 2rem;
-    }
-
-.devicon-angularjs-plain{
-    font-size: 2rem;
+    font-size: 4rem;
     }
 .devicon-csharp-plain-wordmark{
-    font-size: 2rem;
+    font-size: 4rem;
     }
 .devicon-java-plain-wordmark{
-    font-size: 2rem;
+    font-size: 4rem;
    }
-.devicon-spring-plain-wordmark{
-    font-size: 2rem;
+.devicon-spring-plain{
+    font-size: 4rem;
     }
 .devicon-bootstrap-plain-wordmark{
-    font-size: 2rem;
+    font-size: 4rem;
     }
-.devicon-git-plain-wordmark{
-    font-size: 2rem;
+.devicon-git-plain{
+    font-size: 4rem;
    }
-
