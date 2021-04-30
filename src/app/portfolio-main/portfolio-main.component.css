@@ -51,3 +51,11 @@
     visibility:visible;
     opacity: 0.89; 
    }
+.devicon{
+    position: absolute;
+    align-content: center;
+    padding: 5px 5px;
+    height: 100PX;
+    width: 100px;
+    }
+
