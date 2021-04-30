@@ -51,11 +51,28 @@
     visibility:visible;
     opacity: 0.89; 
    }
-.devicon{
-    position: absolute;
-    align-content: center;
-    padding: 5px 5px;
-    height: 100PX;
-    width: 100px;
+
+
+.devicon-angularjs-plain{
+    font-size: 2rem;
     }
+
+.devicon-angularjs-plain{
+    font-size: 2rem;
+    }
+.devicon-csharp-plain-wordmark{
+    font-size: 2rem;
+    }
+.devicon-java-plain-wordmark{
+    font-size: 2rem;
+   }
+.devicon-spring-plain-wordmark{
+    font-size: 2rem;
+    }
+.devicon-bootstrap-plain-wordmark{
+    font-size: 2rem;
+    }
+.devicon-git-plain-wordmark{
+    font-size: 2rem;
+   }
 
